@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sreevathsa221/a.py"
+        DOCKER_IMAGE = "sreevathsa221/a"
     }
 
     stages {
