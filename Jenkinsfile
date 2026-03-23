@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Updated to match your repo name 'a'
-        DOCKER_IMAGE = "sreevathsa221/a"
+        DOCKER_IMAGE = "sreevathsa221/a.py"
     }
 
     stages {
