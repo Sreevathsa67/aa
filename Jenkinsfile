@@ -5,13 +5,7 @@ pipeline {
         DOCKER_IMAGE = "sreevathsa221/a"
     }
 
-    stages {
-
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/Sreevathsa67/aa.git'
-            }
-        }
+ 
 
         stage('Build Docker Image') {
             steps {
